@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>你的名字 - 个人网站</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="主导航">
+        <a class="brand" href="#home">你的名字</a>
+        <div class="nav-links">
+          <a href="#about">关于我</a>
+          <a href="#experience">经历</a>
+          <a href="#projects">项目</a>
+          <a href="#contact">联系</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="hero-content">
+          <p class="eyebrow">Personal Website</p>
+          <h1>你好，我是你的名字</h1>
+          <p class="hero-text">
+            这里写一句简短介绍：比如你的专业、研究方向、职业目标，或者你正在关注的领域。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">查看项目</a>
+            <a class="button secondary" href="#contact">联系我</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>关于我</h2>
+        </div>
+        <div class="content-grid">
+          <div>
+            <p>
+              这里放你的个人简介。可以写你的学校、专业、兴趣方向、目前在做的事情，以及你希望别人通过这个网站了解什么。
+            </p>
+            <p>
+              建议保持简洁，先写 3 到 5 句话。之后你可以慢慢补充更正式的版本。
+            </p>
+          </div>
+          <ul class="info-list">
+            <li><span>所在地</span><strong>城市 / 国家</strong></li>
+            <li><span>方向</span><strong>前端开发 / 数据分析 / 你的方向</strong></li>
+            <li><span>状态</span><strong>学习中 / 求职中 / 项目合作</strong></li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="experience" class="section alt">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>个人经历</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="time">2024 - 现在</div>
+            <div>
+              <h3>经历标题一</h3>
+              <p>例如：某学校某专业、某实习岗位、某社团负责人、某研究项目成员。</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="time">2023</div>
+            <div>
+              <h3>经历标题二</h3>
+              <p>写清楚你做了什么、承担什么职责、有什么成果。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>项目成果</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-top">
+              <h3>项目名称一</h3>
+              <span>Web</span>
+            </div>
+            <p>
+              用 2 到 3 句话介绍项目背景、你负责的部分、使用的技术，以及最后产出。
+            </p>
+            <a href="#" aria-label="查看项目名称一">查看详情</a>
+          </article>
+          <article class="project-card">
+            <div class="project-top">
+              <h3>项目名称二</h3>
+              <span>Research</span>
+            </div>
+            <p>
+              如果是论文、课程设计、比赛作品，也可以放在这里。重点写结果和你的贡献。
+            </p>
+            <a href="#" aria-label="查看项目名称二">查看详情</a>
+          </article>
+          <article class="project-card">
+            <div class="project-top">
+              <h3>项目名称三</h3>
+              <span>Design</span>
+            </div>
+            <p>
+              这里可以替换成截图链接、GitHub 仓库链接、在线演示地址或作品集页面。
+            </p>
+            <a href="#" aria-label="查看项目名称三">查看详情</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>联系我</h2>
+        </div>
+        <p>
+          你可以在这里放邮箱、GitHub、LinkedIn、公众号、作品集链接等。
+        </p>
+        <div class="contact-links">
+          <a href="mailto:your-email@example.com">your-email@example.com</a>
+          <a href="https://github.com/your-github-name">GitHub</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> 你的名字. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
